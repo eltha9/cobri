@@ -62,7 +62,7 @@ body {
   height: auto;
   width: 100%;
   overflow-x: hidden;
-  background-color: #ECEAEA; }
+  background-color: rgba(236, 234, 234, 0.2); }
 
 main {
   padding: 0 162px;
@@ -120,10 +120,10 @@ main {
         .product .product-description .product-rate .rate-icon img {
           width: 100%;
           height: 100%;
-          fill: #D3D3D3;
-          stroke: transparent; }
+          fill: #D3D3D3 !important;
+          stroke: transparent !important; }
         .product .product-description .product-rate .rate-icon.full img {
-          fill: #7077A5; }
+          fill: #7077A5 !important; }
         .product .product-description .product-rate .rate-icon:first-of-type {
           margin-left: 0; }
     .product .product-description .product-price {

@@ -3,7 +3,7 @@
 @import './components/header';
 
 //body var
-$main-bgc : #ECEAEA;
+$main-bgc : rgba(236,234,234,0.2);
 
 body{
     margin:0;
@@ -90,13 +90,13 @@ main{
                     width: 100%;
                     height: 100%;
 
-                    fill: #D3D3D3;
-                    stroke: transparent;
+                    fill: #D3D3D3 !important;
+                    stroke: transparent !important;
                 }
 
                 &.full{
                     img{
-                        fill:#7077A5
+                        fill:#7077A5 !important;
                     }
                 }
 
