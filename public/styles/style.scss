@@ -5,76 +5,6 @@ body{
 	height: 100%;
 	background-color: #ffffff;
 
-	header{
-		height: $header-H;
-		width: $header-W;
-		box-sizing: border-box;
-	
-		padding: 0 162px;
-		background-color: $bgc-header;
-		
-		.container{
-			width: 100%;
-			height: 100%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-			.logo{
-				color: #BFA3A6;
-				font-size: 35px;
-				font-weight: bold;
-			}
-	
-			.menu{
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-	
-				.inner-link{
-					
-					a{
-						margin-left:35px;
-						font-size: 25px;
-						color: black;
-						font-weight: 500;
-	
-						text-decoration: none;
-						&:first-of-type{
-							margin-left:0;
-						}
-					}
-	
-					
-				}
-	
-				.inner-popup{
-					margin-left:35px;
-					button.clickable-icon{
-						height: 24px;
-						width: 24px;
-						padding: 0;
-						margin:0;
-						background-color: unset;
-						border: none;
-						cursor: pointer;
-						img{
-							width: 100%;
-							height: 100%;
-							stroke: black;
-							fill: transparent;
-						}
-	
-						&:last-child{
-							margin-left: 15px;
-						}
-					}
-				}
-	
-			}
-		}
-	}
-
 	.container{
 		display: flex;
 		width: 100%;
@@ -97,18 +27,17 @@ body{
 				padding-right: 20px;
 				box-sizing: border-box;
 
-				.test-i{
+				.image{
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					width: 380px;
 					height: 380px;
-					// background-color: red;
-					border-radius: 5px;
 
 					img{
 						width: 100%;
 						height: auto;
+						border-radius: 5px;
 					}
 				}
 			}
@@ -120,20 +49,21 @@ body{
 				margin-top: 54px;
 				padding-left: 220px;
 				box-sizing: border-box;
+				width: 483px;
 
-				.test-a{
+				.image{
 					display: flex;
 					justify-content: center;
 					align-items: center;
 					width: 94px;
 					height: 94px;
 					background-color: #ECEAEA;
-					// background-color: red;
-					border-radius: 5px;
+					cursor: pointer;
 
 					img{
 						width: 100%;
 						height: auto;
+						border-radius: 5px;
 					}
 				}
 			}
@@ -173,6 +103,12 @@ body{
 				.heart{
 					width: 30px;
 					height: 30px;
+					cursor: pointer;
+
+					.fill{
+						fill: #A4797E;
+						stroke: none;
+					}
 				}
 
 				.ref{
@@ -263,16 +199,13 @@ body{
 						height: 46px;
 						background-color: #C1C4D8;
 						border-radius: 5px;
+						cursor: pointer;
 
 						p{
 							font-size: 20px;
 							color: #ffffff;
 							font-family: "Montserrat";
 						}
-					}
-
-					.add-block.plus{
-						background-color: red;
 					}
 
 				}
@@ -315,16 +248,23 @@ body{
 				border-radius: 5px;
 				margin-bottom: 9px;
 				padding: 0 23px;
+				cursor: pointer;
 
 				&.relaySelected{
 					background-color: #A4797E;
+
+					p{
+						color: #ffffff;
+						font-family: "Montserrat";
+						font-size: 14px;
+					}
 				}
 
-				// p{
-				// 	color: #000000;
-				// 	font-family: "Montserrat";
-				// 	font-size: 14px;
-				// }
+				p{
+					color: #000000;
+					font-family: "Montserrat";
+					font-size: 14px;
+				}
 			}
 
 		}

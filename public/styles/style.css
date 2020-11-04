@@ -6,72 +6,6 @@ body {
   background-color: #ffffff;
 }
 
-body header {
-  height: 10vh;
-  width: 100vw;
-  box-sizing: border-box;
-  padding: 0 162px;
-  background-color: #fff;
-}
-
-body header .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-body header .container .logo {
-  color: #BFA3A6;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-body header .container .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-body header .container .menu .inner-link a {
-  margin-left: 35px;
-  font-size: 25px;
-  color: black;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-body header .container .menu .inner-link a:first-of-type {
-  margin-left: 0;
-}
-
-body header .container .menu .inner-popup {
-  margin-left: 35px;
-}
-
-body header .container .menu .inner-popup button.clickable-icon {
-  height: 24px;
-  width: 24px;
-  padding: 0;
-  margin: 0;
-  background-color: unset;
-  border: none;
-  cursor: pointer;
-}
-
-body header .container .menu .inner-popup button.clickable-icon img {
-  width: 100%;
-  height: 100%;
-  stroke: black;
-  fill: transparent;
-}
-
-body header .container .menu .inner-popup button.clickable-icon:last-child {
-  margin-left: 15px;
-}
-
 body .container {
   display: flex;
   width: 100%;
@@ -93,18 +27,18 @@ body .container .block-image .main-image {
   box-sizing: border-box;
 }
 
-body .container .block-image .main-image .test-i {
+body .container .block-image .main-image .image {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 380px;
   height: 380px;
-  border-radius: 5px;
 }
 
-body .container .block-image .main-image .test-i img {
+body .container .block-image .main-image .image img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 body .container .block-image .view-image {
@@ -114,21 +48,23 @@ body .container .block-image .view-image {
   margin-top: 54px;
   padding-left: 220px;
   box-sizing: border-box;
+  width: 483px;
 }
 
-body .container .block-image .view-image .test-a {
+body .container .block-image .view-image .image {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 94px;
   height: 94px;
   background-color: #ECEAEA;
-  border-radius: 5px;
+  cursor: pointer;
 }
 
-body .container .block-image .view-image .test-a img {
+body .container .block-image .view-image .image img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 body .container .block-content {
@@ -166,6 +102,12 @@ body .container .block-content .text-details .new p {
 body .container .block-content .text-details .heart {
   width: 30px;
   height: 30px;
+  cursor: pointer;
+}
+
+body .container .block-content .text-details .heart .fill {
+  fill: #A4797E;
+  stroke: none;
 }
 
 body .container .block-content .text-details .ref {
@@ -255,6 +197,7 @@ body .container .block-content .buy .add .add-block {
   height: 46px;
   background-color: #C1C4D8;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 body .container .block-content .buy .add .add-block p {
@@ -299,6 +242,17 @@ body .container .delivery-block .delivery {
   border-radius: 5px;
   margin-bottom: 9px;
   padding: 0 23px;
+  cursor: pointer;
+}
+
+body .container .delivery-block .delivery.relaySelected {
+  background-color: #A4797E;
+}
+
+body .container .delivery-block .delivery.relaySelected p {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
 }
 
 body .container .delivery-block .delivery p {
