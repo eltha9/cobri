@@ -41,8 +41,8 @@ main{
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        .product{
-            width: calc( ( 100% - ( 162px * 2 ) ) / 3);
+        .product{// uncomnet if necessary 
+            // width: calc( ( 100% - ( 162px * 2 ) ) / 3); 
         }
     }
 }
@@ -56,6 +56,10 @@ main{
     padding: 0;
 
     $image-xy: 17vw;
+    margin-bottom: 100px;
+
+    color:black;
+    text-decoration: none;
     .product-image{
         width: $image-xy;
         height: $image-xy;
