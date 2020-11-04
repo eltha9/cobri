@@ -1,13 +1,16 @@
 {
   "name": "cobri",
-  "version": "0.1",
+  "version": "",
   "description": "a student project to help improve seo skill's ",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass -w scss/ -o public/styles/",
-    "build": "node-sass scss/ -o public/styles/ --output-style compressed"
+    "dev": "node-sass -w sass/ -o public/styles/",
+    "build": "node-sass sass/ -o public/styles/ --output-style compressed"
   },
   "repository": "https://github.com/eltha9/cobri",
   "author": "eltha9 <theadosto@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
