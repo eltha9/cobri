@@ -6,11 +6,77 @@ body {
   background-color: #ffffff;
 }
 
+body header {
+  height: 10vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 162px;
+  background-color: #fff;
+}
+
+body header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body header .container .logo {
+  color: #BFA3A6;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+body header .container .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+body header .container .menu .inner-link a {
+  margin-left: 35px;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body header .container .menu .inner-link a:first-of-type {
+  margin-left: 0;
+}
+
+body header .container .menu .inner-popup {
+  margin-left: 35px;
+}
+
+body header .container .menu .inner-popup button.clickable-icon {
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  margin: 0;
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+}
+
+body header .container .menu .inner-popup button.clickable-icon img {
+  width: 100%;
+  height: 100%;
+  stroke: black;
+  fill: transparent;
+}
+
+body header .container .menu .inner-popup button.clickable-icon:last-child {
+  margin-left: 15px;
+}
+
 body .container {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: #ECEAEA;
+  background-color: rgba(236, 234, 234, 0.2);
 }
 
 body .container .block-image {
