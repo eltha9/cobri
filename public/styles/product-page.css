@@ -57,7 +57,7 @@ body .container .block-image .view-image .image {
   align-items: center;
   width: 94px;
   height: 94px;
-  background-color: #ECEAEA;
+  /* background-color: #ECEAEA; */
   cursor: pointer;
 }
 
