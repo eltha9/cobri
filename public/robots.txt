@@ -1,4 +1,8 @@
+# Cobri
+
+# User Agent
 User-agent: *
 Allow: /
 
+#Sitemaps
 Sitemap: https://cobri.netlify.app/sitemap.xml
