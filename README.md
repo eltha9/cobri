@@ -1,3 +1,3 @@
 # cobri
 
-https://cobri.netlify.app/
+https://cobri.fr/
