@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 #Sitemaps
-Sitemap: https://cobri.netlify.app/sitemap.xml
+Sitemap: https://cobri.fr/sitemap.xml
