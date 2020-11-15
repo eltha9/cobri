@@ -30,7 +30,7 @@ $bgc-header : #fff;
 //header style
 header{
     height: $header-H;
-    width: $header-W;
+    // width: $header-W;
     box-sizing: border-box;
 
     padding: 0 162px;
