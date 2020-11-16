@@ -4,7 +4,7 @@
             <a href="./" class="logo">Cobri.</a>
             <div class="menu">
                 <div class="inner-link">
-                    <a href="./product-list.html">Produits</a>
+                    <a href="/products">Produits</a>
                     <a href="#services">Services</a>
                     <a href="#bio">Contact</a>
                 </div>
