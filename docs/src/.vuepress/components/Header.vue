@@ -1,7 +1,7 @@
 <template>
     <header>
        <div class="container">
-            <a href="./" class="logo">Cobri.</a>
+            <a href="/" class="logo">Cobri.</a>
             <div class="menu">
                 <div class="inner-link">
                     <a href="/products">Produits</a>
