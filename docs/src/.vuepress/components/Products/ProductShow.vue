@@ -8,19 +8,12 @@
                 <div class="product-description">
                     <div class="product-name">{{ productName }}</div>
                     <div class="product-rate">
-                        <div class="rate-icon full">
+
+                        <div class="rate-icon full" v-for="n in rate">
                             <img :src="$withBase('./img/color-stars.png')" alt="étoiles de notation">
                         </div>
-                        <div class="rate-icon full">
-                            <img :src="$withBase('./img/color-stars.png')" alt="étoiles de notation">
-                        </div>
-                        <div class="rate-icon full">
-                            <img :src="$withBase('./img/color-stars.png')" alt="étoiles de notation">
-                        </div>
-                        <div class="rate-icon full">
-                            <img :src="$withBase('./img/color-stars.png')" alt="étoiles de notation">
-                        </div>
-                        <div class="rate-icon ">
+                       
+                        <div class="rate-icon " v-for="n in (5 - rate)">
                             <img :src="$withBase('./img/grey-stars.png')" alt="étoiles de notation">
                         </div>
                     </div>

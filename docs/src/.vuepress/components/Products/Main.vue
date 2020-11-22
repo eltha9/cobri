@@ -29,13 +29,6 @@ export default {
                         "rate":4,
                         "img":"./img/sirene.png",
                         "id": 1
-                    },
-                    {
-                        "productName":"test",
-                        "price":0,
-                        "rate":2,
-                        "img":"./img/sirene.png",
-                        "id": 2
                     }
                 ]
         }
