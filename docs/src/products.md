@@ -1,9 +1,5 @@
 ---
-    title: Product list
-
-    $products :
-        - name:
-          rating:  
+title: Product list
 ---
 
-<Products-Main />
+<Products-Main/>
