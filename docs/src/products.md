@@ -1,6 +1,5 @@
 ---
-    title: Product list
-
-   
+title: Product list
 ---
-<Products-Main />
+
+<Products-Main/>

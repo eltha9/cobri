@@ -1,10 +1,12 @@
 <template>
     <a href="product.html" class="product">
+                
+
                 <div class="product-image">
-                    <img :src="$withBase('./img/sirene.png')" alt="Carreau de carrelage la petite sirène">
+                    <img :src="$withBase( img )" :alt=" productName ">
                 </div>
                 <div class="product-description">
-                    <div class="product-name">Carreau de carrelage la petite sirène</div>
+                    <div class="product-name">{{ productName }}</div>
                     <div class="product-rate">
                         <div class="rate-icon full">
                             <img :src="$withBase('./img/color-stars.png')" alt="étoiles de notation">
@@ -23,11 +25,22 @@
                         </div>
                     </div>
                     <div class="product-price">
-                        <span class="price">23.94 €</span> / <span class="quantity">carton</span>
+                        <span class="price">{{ price }} €</span> / <span class="quantity">carton</span>
                     </div>
                 </div>
             </a>
 </template>
+
+<script>
+export default {
+    props: [
+        "productName",
+        "rate",
+        "price",
+        "img"
+    ]
+}
+</script>
 
 <style lang="scss">
 .product{

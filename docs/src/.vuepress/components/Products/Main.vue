@@ -7,10 +7,41 @@
             <h1>Carellage extérieur</h1>
         </div>
         <div class="product-list">
-            <Products-ProductShow/>
+            <Products-ProductShow v-for="product in products" 
+            v-bind:key="product.id" 
+            v-bind:productName="product.productName" 
+            v-bind:price="product.price"
+            v-bind:rate="product.rate"
+            v-bind:img="product.img"
+            />
         </div>
     </main>  
 </template>
+
+<script>
+export default {
+    data(){
+        return {
+            products: [
+                {
+                    "productName":"carreau de carrelage petite sirène",
+                        "price":23.84,
+                        "rate":4,
+                        "img":"./img/sirene.png",
+                        "id": 1
+                    },
+                    {
+                        "productName":"test",
+                        "price":0,
+                        "rate":2,
+                        "img":"./img/sirene.png",
+                        "id": 2
+                    }
+                ]
+        }
+    }
+}
+</script>
 
 <style lang="scss">
 //var for product list
