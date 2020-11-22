@@ -1,5 +1,5 @@
 <template>
-    <a href="product.html" class="product">
+    <a :href="productLink" class="product">
                 
 
                 <div class="product-image">
@@ -27,6 +27,7 @@
 <script>
 export default {
     props: [
+        "productLink",
         "productName",
         "rate",
         "price",

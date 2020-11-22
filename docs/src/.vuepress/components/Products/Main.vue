@@ -9,6 +9,7 @@
         <div class="product-list">
             <Products-ProductShow v-for="product in products" 
             v-bind:key="product.id" 
+            v-bind:productLink="product.productLink" 
             v-bind:productName="product.productName" 
             v-bind:price="product.price"
             v-bind:rate="product.rate"
@@ -24,12 +25,13 @@ export default {
         return {
             products: [
                 {
+                    "productLink":"./products/carreau-carrelage-petite-sirene",
                     "productName":"carreau de carrelage petite sirène",
-                        "price":23.84,
-                        "rate":4,
-                        "img":"./img/sirene.png",
-                        "id": 1
-                    }
+                    "price":23.84,
+                    "rate":4,
+                    "img":"./img/sirene.png",
+                    "id": 1
+                }
                 ]
         }
     }
