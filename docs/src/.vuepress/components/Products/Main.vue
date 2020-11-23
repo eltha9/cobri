@@ -25,12 +25,20 @@ export default {
         return {
             products: [
                 {
-                    "productLink":"./products/carreau-carrelage-petite-sirene",
+                    "productLink":"/products/carreau-carrelage-petite-sirene",
                     "productName":"carreau de carrelage petite sirène",
                     "price":23.84,
                     "rate":4,
-                    "img":"./img/sirene.png",
+                    "img":"/img/sirene.png",
                     "id": 1
+                },
+                {
+                    "productLink":"/products/carreau-carrelage-petite-sirene",
+                    "productName":"lpop",
+                    "price":0,
+                    "rate":2,
+                    "img":"/img/sirene.png",
+                    "id": 2
                 }
                 ]
         }
