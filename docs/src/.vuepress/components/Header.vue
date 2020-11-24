@@ -10,10 +10,10 @@
                 </div>
                 <div class="inner-popup">
                     <button class="clickable-icon">
-                        <img :src="$withBase('./img/icons/user.svg')" alt="user-icon">
+                        <img :src="$withBase('/img/icons/user.svg')" alt="user-icon">
                     </button>
                     <button class="clickable-icon">
-                        <img :src="$withBase('./img/icons/shopping-cart.svg')" alt="shopping-cart-icon">
+                        <img :src="$withBase('/img/icons/shopping-cart.svg')" alt="shopping-cart-icon">
                     </button>
                 </div>
             </div>

@@ -2,7 +2,7 @@
     <div>
         <div class="container">
 			<div class="main-image">
-				<img :src="$withBase('./img/cobri_cover.jpg')" alt="Image de couverture page accueil cobri">
+				<img :src="$withBase('/img/cobri_cover.jpg')" alt="Image de couverture page accueil cobri">
 			</div>
 			<div class="content">
 				<h1>Bienvenu chez Cobri</h1>
@@ -19,10 +19,10 @@
 					</div>
 					<div class="description-image">
 						<div class="image-1">
-							<img :src="$withBase('./img/tiling.png')" alt="Image carreau de carralage motif petite sirène">
+							<img :src="$withBase('/img/tiling.png')" alt="Image carreau de carralage motif petite sirène">
 						</div>
 						<div class="image-2">
-							<img :src="$withBase('./img/deco_tiling_1.png')" alt="Décoration salle de bain avec carreau de carralage petite sirène">
+							<img :src="$withBase('/img/deco_tiling_1.png')" alt="Décoration salle de bain avec carreau de carralage petite sirène">
 						</div>
 					</div>
 				</div>
@@ -33,19 +33,19 @@
 				<div class="services-description">
 					<div class="services-description-block">
 						<div class="services-description-block-img">
-							<img :src="$withBase('./img/aide.jpg')" alt="Image description service">
+							<img :src="$withBase('/img/aide.jpg')" alt="Image description service">
 						</div>
 						<p>Conseil</p>
 					</div>
 					<div class="services-description-block">
 						<div class="services-description-block-img">
-							<img :src="$withBase('./img/devis.jpg')" alt="Image description devis">
+							<img :src="$withBase('/img/devis.jpg')" alt="Image description devis">
 						</div>
 						<p>Devis</p>
 					</div>
 					<div class="services-description-block">
 						<div class="services-description-block-img">
-							<img :src="$withBase('./img/pose.jpg')" alt="Image description pose">
+							<img :src="$withBase('/img/pose.jpg')" alt="Image description pose">
 						</div>
 						<p>Pose par un professionnel</p>
 					</div>
