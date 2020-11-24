@@ -1,6 +1,37 @@
 <template>
 	<main>
 		<div class="container">
+			<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Product",
+			"name": "Carreau de carrelage petite sirène",
+            "image":[
+            "https://cobri.fr/src/img/tiling.png"
+            ],
+            "description":"Le carreau de carrelage petite sirène parfait pour votre salle de bain et plus généralement pour votre maison",
+            "sku":"4769372",
+            "mpn":"1",
+            "brand":{
+                "@type":"Brand",
+                "name":"Cobri."
+            },
+            "aggregateRating":{
+                "@Type":"AggregateRating",
+                "ratingValue":"4",
+                "reviewCount:"80"
+            },
+			"offers":{
+                "@Type":"Offer",
+                "url":"https://cobri.fr/products/carreau-carrelage-petite-sirene/",
+				"priceCurrency":"EUR",
+				"price": "23.94",
+                "priceValidUntil":"23.84",
+                "itemCondition":"https://schema.org/UsedCondition",
+                "availability":"https://schema.org/InStock"
+			}
+		}
+	</script>
 			<div class="block-image">
 				<div class="main-image">
 					<div class="image">
