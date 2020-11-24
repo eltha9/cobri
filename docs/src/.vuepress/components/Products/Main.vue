@@ -29,7 +29,7 @@ export default {
                     "productName":"carreau de carrelage petite sirène",
                     "price":23.84,
                     "rate":4,
-                    "img":"/img/sirene.png",
+                    "img":"./img/sirene.png",
                     "id": 1
                 },
                 {
@@ -37,7 +37,7 @@ export default {
                     "productName":"lpop",
                     "price":0,
                     "rate":2,
-                    "img":"/img/sirene.png",
+                    "img":"./img/sirene.png",
                     "id": 2
                 }
                 ]
