@@ -19,9 +19,9 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap', rel: 'stylesheet' }],
-    ['script', {'async':'','src':'https://www.googletagmanager.com/gtag/js?id=G-YQTTHTFX3B'}],
-    ['script',{},`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-YQTTHTFX3B');`]
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap', rel: 'stylesheet' }]
+    // ['script', {'async':'','src':'https://www.googletagmanager.com/gtag/js?id=G-YQTTHTFX3B'}],
+    // ['script',{},`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-YQTTHTFX3B');`]
   ],
 
   /**
