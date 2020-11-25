@@ -5,8 +5,8 @@
             <div class="menu">
                 <div class="inner-link">
                     <a href="/products">Produits</a>
-                    <a href="#services">Services</a>
-                    <a href="#bio">Contact</a>
+                    <a href="/#services">Services</a>
+                    <a href="/#bio">Contact</a>
                 </div>
                 <div class="inner-popup">
                     <button class="clickable-icon">
