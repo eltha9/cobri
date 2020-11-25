@@ -1,8 +1,0 @@
-# Cobri
-
-# User Agent
-User-agent: *
-Allow: /
-
-#Sitemaps
-Sitemap: https://cobri.fr/sitemap.xml

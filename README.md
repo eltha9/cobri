@@ -1,3 +1,0 @@
-# cobri
-
-https://cobri.fr/
