@@ -9,6 +9,7 @@
 <style lang="scss">
 body{
     margin:0;
+    font-display: swap;
     font-family: 'Montserrat', sans-serif; 
 }
 </style>

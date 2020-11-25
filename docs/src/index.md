@@ -29,4 +29,3 @@ meta:
 
 ---
 <Home/>
-[tuto](./comment-poser-carreau-carrelage-petite-sirene)

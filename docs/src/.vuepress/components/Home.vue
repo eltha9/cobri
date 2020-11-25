@@ -13,7 +13,7 @@
 						<p>Dans la tendance actuelle, nous avons reçu un nouveau carrelage au motif sirène pour décorer vos salle de bain.</p>
 						<p>De couleur gris foncé, ce carrelage se fond idéalement dans une décoration moderne, tout en faisant plaisir aux plus jeunes.</p>
 						<div class="more">
-							<a href="./product.html">En savoir plus</a>
+							<a href="./products/carreau-carrelage-petite-sirene">En savoir plus</a>
 							<div class="ligne"></div>
 						</div>
 					</div>
@@ -27,6 +27,16 @@
 					</div>
 				</div>
 			</div>
+			<!-- START tutoriel part -->
+			<div class="tuto">	
+				<h2>Nos tutoriels</h2>
+				<p>Cobri. ne fait pas que vous vendre ses carreaux de carralage, mais vous montre à travers une série de tutoriels DIY comment le poser</p>
+				<div class="more">
+					<a href="./comment-poser-carreau-carrelage-petite-sirene">En savoir plus</a>
+					<div class="ligne"></div>
+				</div>
+			</div>
+			<!-- END tutoriel part -->
 			<div class="services" id="services">
 				<h2>Nos services</h2>
 				<p>Cobri vous propose différents services :</p>
@@ -107,7 +117,7 @@ body{
 				width: 598px;
 			}
 
-			.description{
+			.description,.tuto{
 				margin-top: 50px;
 				width: 100%;
 				display: flex;
@@ -245,6 +255,40 @@ body{
 			p{
 				font-size: 20px;
 			}
+		}
+
+		.tuto{
+			padding: 0px 162px;
+
+			h2{
+				margin: 0;
+				color: #C7AEB1;
+				margin-top: 60px;
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			p{
+				font-size: 20px;
+			}
+			.more{
+						margin-top: 40px;
+						display: flex;
+						align-items: center;
+
+						a{
+							font-size: 22px;
+							color: #6B719E;
+							text-decoration: none;
+						}
+
+						.ligne{
+							width: 67px;
+							height: 2px;
+							background-color: #6B719E;
+							margin-left: 20px;
+						}
+					}
 		}
 	}
 }
