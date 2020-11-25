@@ -94,16 +94,16 @@
 				"name":"Cobri."
 			},
 			"aggregateRating":{
-				"@Type":"AggregateRating",
+				"@type":"AggregateRating",
 				"ratingValue":"4",
 				"reviewCount":"80"
 			},
 			"offers":{
-				"@Type":"Offer",
+				"@type":"Offer",
 				"url":"https://cobri.fr/products/carreau-carrelage-petite-sirene/",
 				"priceCurrency":"EUR",
 				"price": "23.94",
-				"priceValidUntil":"23.84",
+				"priceValidUntil":"14/02/2021",
 				"itemCondition":"https://schema.org/UsedCondition",
 				"availability":"https://schema.org/InStock"
 			}
