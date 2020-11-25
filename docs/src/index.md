@@ -3,6 +3,9 @@ lang: fr-FR
 title:  Cobri votre site de vente de carreau de carrelage petite sirène
 home: true
 meta:
+    - charset: UTF-8
+    - name: viewport
+      content: width=device-width, initial-scale=1.0
     - name: google-site-verification
       content: 2RQS7PuUOiaYciX7Xan-w7z6xdneJ3PzW2TP2DlTacM
     - name: description
