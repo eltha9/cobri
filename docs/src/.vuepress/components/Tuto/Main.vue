@@ -10,7 +10,7 @@
     </main>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 //var for product list
 $main-H: 80vh;
 $main-W: 100%;

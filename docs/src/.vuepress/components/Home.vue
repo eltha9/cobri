@@ -61,7 +61,7 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 body{
 	padding: 0;
 	margin: 0;

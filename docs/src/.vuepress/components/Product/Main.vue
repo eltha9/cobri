@@ -153,9 +153,9 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container{
-	// display: flex;
+	display: flex;
 	width: 100%;
 	height: auto;
 	background-color: rgba(236, 234, 234,0.2);
