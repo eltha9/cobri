@@ -26,19 +26,27 @@ export default {
             products: [
                 {
                     "productLink":"/products/carreau-carrelage-petite-sirene",
-                    "productName":"carreau de carrelage petite sirène",
-                    "price":23.84,
+                    "productName":"Xarreau de carrelage la Petite Sirène",
+                    "price":"23.84",
                     "rate":4,
-                    "img":"/img/sirene.png",
+                    "img":"/img/sirene_2.png",
                     "id": 1
                 },
                 {
-                    "productLink":"/products/carreau-carrelage-petite-sirene",
-                    "productName":"lpop",
-                    "price":0,
-                    "rate":2,
-                    "img":"/img/sirene.png",
+                    "productLink":"#",
+                    "productName":"Carreau de carrelage Polochon la Petite Sirène",
+                    "price":"23.00",
+                    "rate":3,
+                    "img":"/img/polochon.png",
                     "id": 2
+                },
+                {
+                    "productLink":"#",
+                    "productName":"Carreau de carrelage Ursula la Petite Sirène",
+                    "price":"69.42",
+                    "rate":2,
+                    "img":"/img/ursula.png",
+                    "id": 3
                 }
                 ]
         }

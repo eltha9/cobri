@@ -2,8 +2,8 @@
 
 # User Agent
 User-agent: *
-# Allow: /
-Disallow: *
+Allow: /
+
 
 #Sitemaps
 Sitemap: https://cobri.fr/sitemap.xml
