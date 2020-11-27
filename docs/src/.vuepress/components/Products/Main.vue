@@ -25,7 +25,7 @@ export default {
         return {
             products: [
                 {
-                    "productLink":"/products/carreau-carrelage-petite-sirene",
+                    "productLink":"/products/carreau-carrelage-petite-sirene/",
                     "productName":"Xarreau de carrelage la Petite Sirène",
                     "price":"23.84",
                     "rate":4,

@@ -13,7 +13,7 @@
 						<p>Dans la tendance actuelle, nous avons reçu un nouveau carrelage au motif sirène pour décorer vos salle de bain.</p>
 						<p>De couleur gris foncé, ce carrelage se fond idéalement dans une décoration moderne, tout en faisant plaisir aux plus jeunes.</p>
 						<div class="more">
-							<a href="./products/carreau-carrelage-petite-sirene">En savoir plus</a>
+							<a href="./products/carreau-carrelage-petite-sirene/">En savoir plus</a>
 							<div class="ligne"></div>
 						</div>
 					</div>
@@ -32,7 +32,7 @@
 				<h2>Nos tutoriels</h2>
 				<p>Cobri. ne fait pas que vous vendre ses carreaux de carralage, mais vous montre à travers une série de tutoriels DIY comment le poser</p>
 				<div class="more">
-					<a href="./comment-poser-carreau-carrelage-petite-sirene">En savoir plus</a>
+					<a href="./comment-poser-carreau-carrelage-petite-sirene/">En savoir plus</a>
 					<div class="ligne"></div>
 				</div>
 			</div>
