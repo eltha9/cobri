@@ -20,10 +20,11 @@
 					<div class="description-image">
 						<div class="image-1">
 							<img :src="$withBase('/img/tiling.png')" alt="Image carreau de carralage motif petite sirène">
-						</div>
-						<div class="image-2">
 							<img :src="$withBase('/img/deco_tiling_1.png')" alt="Décoration salle de bain avec carreau de carralage petite sirène">
 						</div>
+						<!-- <div class="image-2">
+							<img :src="$withBase('/img/deco_tiling_1.png')" alt="Décoration salle de bain avec carreau de carralage petite sirène">
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -165,30 +166,16 @@ body{
 				.description-image{
 					display: flex;
 					flex-direction: column;
+					justify-content: center;
 					align-items: center;
 					width: 50%;
 
 					.image-1{
 						display: flex;
-						width: 411px;
-						height: 100%;
-						justify-content: flex-end;
-
+						justify-content: space-around;
 						img{
-							width: 60%;
+							width: 40%;
 							height: auto;
-							border-radius: 5px;
-						}
-					}
-					.image-2{
-						margin-top: -40px;
-						width: 411px;
-						height: 258px;
-
-						img{
-							width: 60%;
-							height: auto;
-							border-radius: 5px;
 						}
 					}
 				}
@@ -290,6 +277,13 @@ body{
 						}
 					}
 		}
+	}
+}
+
+@media screen and (max-width: 430px){
+	.container{
+		width: 100%;
+		background-color: chocolate;
 	}
 }
 </style>
