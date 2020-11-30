@@ -68,8 +68,6 @@ header{
                         margin-left:0;
                     }
                 }
-
-                
             }
 
             .inner-popup{
@@ -105,5 +103,41 @@ header{
     width: $header-W;
 
     display: none;
+}
+
+@media screen and (max-width: 430px){
+    header{
+        padding: 0;
+        height: auto;
+        margin-bottom: 20px;
+
+        .container{
+            flex-direction: column;
+
+            .menu{
+                flex-direction: column;
+                width: 100%;
+
+                .inner-link{
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-around;
+
+                    a{
+                        font-size: 15px;
+                        margin-left: 0px;
+                    }
+                }
+
+
+                .inner-popup{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
 }
 </style>

@@ -43,4 +43,23 @@
 			text-align: center;
 		}
 	}
+
+	@media screen and (max-width: 430px){
+		.footer{
+			padding: 0 20px;
+			padding-bottom: 20px;
+			margin-top: 50px;
+			flex-direction: column;
+
+			p{
+				margin-top: 10px;
+				font-size: 12px;
+			}
+
+			small{
+				margin-top: 10px;
+				font-size: 12px;
+			}
+		}
+	}
 </style>

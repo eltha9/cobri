@@ -259,31 +259,123 @@ body{
 				font-size: 20px;
 			}
 			.more{
-						margin-top: 40px;
-						display: flex;
-						align-items: center;
+				margin-top: 40px;
+				display: flex;
+				align-items: center;
 
-						a{
-							font-size: 22px;
-							color: #6B719E;
-							text-decoration: none;
-						}
+				a{
+					font-size: 22px;
+					color: #6B719E;
+					text-decoration: none;
+				}
 
-						.ligne{
-							width: 67px;
-							height: 2px;
-							background-color: #6B719E;
-							margin-left: 20px;
-						}
-					}
+				.ligne{
+					width: 67px;
+					height: 2px;
+					background-color: #6B719E;
+					margin-left: 20px;
+				}
+			}
 		}
 	}
 }
 
 @media screen and (max-width: 430px){
-	.container{
-		width: 100%;
-		background-color: chocolate;
+	html{
+		overflow: hidden;
+		.container{
+
+			.main-image{
+				width: auto;
+				height: auto;
+
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.content{
+				padding: 0 20px;
+
+				h3{
+					width: auto;
+				}
+
+				.description,.tuto{
+
+					display: flex;
+					flex-direction: column;
+
+					.description-text{
+
+						width: 100%;
+
+						h4{
+							width: auto;
+						}
+
+						p{
+							width: auto;
+						}
+
+						.more{
+							margin-top: 30px;
+						}
+					}
+
+					.description-image{
+						margin-top: 30px;
+						width: 100%;
+
+						.image-1{
+							display: flex;
+							justify-content: space-between;
+						}
+					}
+				}
+			}
+
+			.services{
+				padding: 0 20px;
+
+				.services-description{
+
+					display: flex;
+					flex-direction: column;
+
+					.services-description-block{
+
+						.services-description-block-img{
+							width: auto;
+
+							img{
+								width: 100%;
+								height: auto;
+							}
+
+						}
+
+					}
+				}
+			}
+
+			.bio{
+				padding: 0 20px;
+
+				h2{
+					margin-top: 30px;
+				}
+
+				small{
+					margin-bottom: 50px;
+				}
+			}
+
+			.tuto{
+				padding: 0 20px;
+			}
+		}
 	}
 }
 </style>
