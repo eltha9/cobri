@@ -144,7 +144,7 @@ body{
 					}
 
 					.more{
-						margin-top: 140px;
+						margin-top: 40px;
 						display: flex;
 						align-items: center;
 
@@ -172,10 +172,12 @@ body{
 
 					.image-1{
 						display: flex;
-						justify-content: space-around;
+						align-items: center;
+						flex-direction: column;
 						img{
-							width: 40%;
+							width: 80%;
 							height: auto;
+							margin-bottom: 20px;
 						}
 					}
 				}
@@ -280,7 +282,43 @@ body{
 	}
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 1500px){
+	.description,.tuto{
+		flex-direction: column;
+		.description-image{
+			margin-top: 30px;
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 1300px){
+
+	.content{
+		padding: 0px 40px !important;
+		.description,.tuto{
+			flex-direction: column;
+			.description-image{
+				margin-top: 30px;
+				width: 100%;
+			}
+		}
+	}
+
+	.services{
+		padding: 0px 40px !important;
+	}
+
+	.bio{
+		padding: 0px 40px !important;
+	}
+
+	.tuto{
+		padding: 0px 40px !important;
+	}
+}
+
+@media screen and (max-width: 900px){
 	html{
 		overflow: hidden;
 		.container{

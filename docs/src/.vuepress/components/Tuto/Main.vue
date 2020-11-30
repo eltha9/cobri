@@ -44,4 +44,14 @@ main{
         text-align: center;
     }
 }
+
+@media screen and (max-width: 900px){
+    main{
+        padding: 0 40px;
+
+        iframe{
+            width: auto;
+        }
+    }
+}
 </style>

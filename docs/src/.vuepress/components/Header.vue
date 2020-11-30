@@ -105,11 +105,12 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 900px){
     header{
         padding: 0;
         height: auto;
         margin-bottom: 20px;
+        padding-top: 20px;
 
         .container{
             flex-direction: column;
@@ -124,7 +125,7 @@ header{
                     justify-content: space-around;
 
                     a{
-                        font-size: 15px;
+                        font-size: 18px;
                         margin-left: 0px;
                     }
                 }

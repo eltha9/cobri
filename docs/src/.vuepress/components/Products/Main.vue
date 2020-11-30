@@ -88,4 +88,14 @@ main{
         }
     }
 }
+
+@media screen and (max-width: 900px){
+    main{
+        padding: 0 20px;
+
+        .product-list{
+            justify-content: center;
+        }
+    }
+}
 </style>
